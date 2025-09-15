@@ -29,9 +29,6 @@ from cryptography.hazmat.primitives.asymmetric import utils
 import unittest
 from hashlib import sha256
 
-from oath import str2ocrasuite, OCRAMutualChallengeResponseClient, OCRAMutualChallengeResponseServer
-from oath._utils import fromhex
-
 from ecdsa import SigningKey,NIST192p,NIST224p,NIST256p,NIST384p,NIST521p,SECP256k1
 import binascii
 from ecdsa.util import sigencode_der
